@@ -14,9 +14,7 @@ class ProductRepository extends Repository {
         return $this->getAll();
     }
 
-    public function getProductById($id) {
-        return $this->getById($id);
-    }
+  
 
     public function createProduct(Product $product) {
         $data = [
